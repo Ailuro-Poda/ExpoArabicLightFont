@@ -69,8 +69,6 @@ To use the "Expo Arabic Light" font on your website, include the following CSS i
          url('https://raw.githubusercontent.com/Ailuro-Poda/ExpoArabicLightFont/main/ExpoArabicLight.otf') format('opentype'),
          url('https://raw.githubusercontent.com/Ailuro-Poda/ExpoArabicLightFont/main/ExpoArabicLight.eot') format('embedded-opentype'),
          url('https://raw.githubusercontent.com/Ailuro-Poda/ExpoArabicLightFont/main/ExpoArabicLight.svg#ExpoArabicLight') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 * {
     font-family: 'Expo Arabic Light' !important;
