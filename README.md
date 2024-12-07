@@ -72,4 +72,7 @@ To use the "Expo Arabic Light" font on your website, include the following CSS i
     font-weight: normal;
     font-style: normal;
 }
+* {
+    font-family: 'Expo Arabic Light' !important;
+}
 ```
