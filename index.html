@@ -26,13 +26,38 @@
             padding: 20px;
             box-sizing: border-box;
         }
-
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
         .title {
             font-size: 2.4em;
             font-weight: bold;
             margin-bottom: 10px;
         }
+        
+        .button-en {
+            background-color: #00bfff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            font-weight: 900;
+            font-family: 'Expo Arabic Light';
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            flex: auto;
+        }
 
+        .button-en:hover {
+            background-color: #008ccc;
+        }
+        
         .author, .source {
             font-size: 1.4em;
             margin-bottom: 20px;
@@ -84,6 +109,11 @@
     </style>
 </head>
 <body>
+    
+    <header>
+        <button class="button-en" onclick="window.location.href='https://bit.ly/41mPfyc';">EN</button>
+    </header>    
+    
     <div class="title">حسبي أني مُسلم</div>
 
     <div class="author">تأليف: عبد الله الأخرس</div>
